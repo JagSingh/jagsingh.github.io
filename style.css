@@ -1,0 +1,58 @@
+/*
+    jag.m.singh@gmail.com
+*/
+
+nav {
+    background-color: #dde;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+    /*useful when the screen squishes to less than 800px*/
+    max-width: 800px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    /*Since the <img> element is an inline element (and margin: auto does not have any effect on inline elements) we also must convert the image to a block element, with display: block.*/
+}
+
+header {
+    text-align: center;
+    /* border-style: none none solid none; 
+    border-color: #dde;*/
+    border-style: none
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    border-style: solid none none none;
+    border-color: #dde;
+}
+
+table, th, td {
+    border: 2px solid #dde;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+  }
+  
+hr {
+    border: 1px solid #dde;
+  }
+  
+attr-contact {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    border-style: none;
+}
+
+
