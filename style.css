@@ -6,12 +6,11 @@ nav {
     background-color: #dde;
 }
 @supports not (-webkit-touch-callout: none) {
+    /*Apply css for other than iOS devices. this css does not work on iphone*/ 
 
 body {
     font-family: sans-serif;
-    Apply css for other than iOS devices. this css does not work on iphone*/ 
-    margin: 0 auto;
-    
+    margin: 0 auto;    
     padding: 10px;
     /*useful when the screen squishes to less than 800px*/
     max-width: 800px;
