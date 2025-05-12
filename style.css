@@ -13,7 +13,7 @@ body {
     /*useful when the screen squishes to less than 800px*/
     max-width: 800px;
     @supports (-webkit-touch-callout: none) {
-        /*Apply css for iOS devices*/ 
+        /*Apply css for iOS devices. Default font size is too small on iphone, double it*/ 
         font-size: 2em;
         }
     }
