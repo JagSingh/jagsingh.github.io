@@ -9,12 +9,13 @@ nav {
 body {
     font-family: sans-serif;
     @supports not (-webkit-touch-callout: none) {
-    /* Apply margin 0 auto only for other than iOS devices. iphone squishes the font size aggressively to center the body*/ 
-    margin: 0 auto;
+        /* Apply margin 0 auto only for other than iOS devices. iphone squishes the font size aggressively to center the body*/ 
+        margin: 0 auto;
+        
+        padding: 10px;
+        /*useful when the screen squishes to less than 800px*/
+        max-width: 800px;
     }
-    padding: 10px;
-    /*useful when the screen squishes to less than 800px*/
-    max-width: 800px;
 }
 
 img {
