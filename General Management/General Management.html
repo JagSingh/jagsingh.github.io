@@ -23,7 +23,8 @@
             <ul>
                 <li><a href="#The Practice of Management">The Practice of Management</a> by Peter Drucker, 1954</li>
                 <li><a href="#The Effective Executive">The Effective Executive</a> by Peter Drucker, 1966</li>
-            </ul><p></p>
+            </ul>
+            <p></p>
             Strategy
             <ul>
                 <li><a href="#Strategies for Diversification">Strategies for Diversification</a> by Igor Ansoff, 1957
@@ -32,19 +33,27 @@
                 <li><a href="#Competitive Strategy">Competitive Strategy</a> by Michael Porter, 1980</li>
                 <li><a href="#Competitive Advantage">Competitive Advantage</a> by Michael Porter, 1985</li>
                 <li><a href="#The Innovator's Dilemma">The Innovator's Dilemma</a> by Clayton Christensen, 1997</li>
-            </ul><p></p>
+            </ul>
+            <p></p>
             Organization
             <ul>
                 <li><a href="#How Do Committees Invent?">How Do Committees Invent?</a> by Melvin Conway, 1968</li>
-            </ul><p></p>
+            </ul>
+            <p></p>
             Operational Excellence
             <ul>
-                <li><a href="#Manifesto for Agile Software Development">Manifesto for Agile Software Development</a>, 2001</li>
+                <li><a href="#Manifesto for Agile Software Development">Manifesto for Agile Software Development</a>,
+                    2001</li>
                 <li><a href="#Measure What Matters">Measure What Matters</a> by John Doerr, 2018</li>
-                <li><a href="#Starbase Tour and Interview with Elon Musk">Starbase Tour and Interview with Elon Musk</a> by Trevor Sesnic, 2021</li>
+                <li><a href="#Starbase Tour and Interview with Elon Musk">Starbase Tour and Interview with Elon Musk</a>
+                    by Trevor
+                    Sesnic, 2021</li>
+                <li><a href="#DORA's software delivery metrics: the four keys">DORA's software delivery metrics: the
+                        four keys</a>
+                    by Nathen Harvey, 2025</li>
             </ul>
         </ul>
-        
+
         <h2>Management</h2>
 
         <h3 id="The Practice of Management">The Practice of Management</h3>
@@ -683,7 +692,7 @@
         </ul>
         That is, while there is value in the items on
         the right, we value the items on the left more.
-
+        <hr>
         <p></p>
         Kent Beck
         Mike Beedle
@@ -836,7 +845,7 @@
 
         <table>
             <tr>
-                <th>MBOs</th>
+                <th><a href="#The Practice of Management">MBOs</a></th>
                 <th>Intel OKRs</th>
             </tr>
             <tr>
@@ -927,6 +936,63 @@
                 testing.
             </li>
         </ol>
+
+
+
+        <h3 id="DORA's software delivery metrics: the four keys">DORA's software delivery metrics: the four keys</h3>
+        <p>by Nathen Harvey, 2025</p>
+        <nav>
+            <a href="../index.html">Home</a> : <a href="General Management.html">General Management</a> : DORA's
+            software delivery metrics: the four keys
+        </nav>
+        <p></p>
+
+        The four key metrics function as:
+        <ul>
+            <li>Leading indicators for organizational performance and employee well-being</li>
+            <li>Lagging indicators for software development and delivery practices.</li>
+        </ul>
+
+        <h4>Throughput and stability</h4>
+        DORA's four keys can be divided into metrics that show the throughput of software changes, and metrics that show
+        stability of software changes. This includes changes of any kind, including changes to configuration and changes
+        to code.
+
+        <h4>Throughput</h4>
+        Throughput measures the velocity of changes that are being made. DORA assesses throughput using the following
+        metrics:
+
+        <ul>
+            <li>
+                <b>Change lead time</b> - This metric measures the time it takes for a code commit or change to be
+                successfully
+                deployed to production. It reflects the efficiency of your software delivery process.
+            </li>
+            <li>
+                <b>Deployment frequency</b> - This metric measures how often application changes are deployed to
+                production. Higher deployment frequency indicates a more efficient and responsive delivery process.
+            </li>
+        </ul>
+        <h4>Stability</h4>
+        Stability measures the quality of the changes delivered and the team's ability to repair failures. DORA assesses
+        stability using the following metrics:
+
+        <ul>
+            <li>
+                <b>Change fail percentage</b> - This metric measures the percentage of deployments that cause failures
+                in production,
+                requiring hotfixes or rollbacks. A lower change failure rate indicates a more reliable delivery process.
+            </li>
+            <li>
+                <b>Failed deployment recovery time</b> - This metric measures the time it takes to recover from a failed
+                deployment. A
+                lower recovery time indicates a more resilient and responsive system.
+            </li>
+        </ul>
+        <h4>Key insights</h4>
+        DORA's research has repeatedly demonstrated that speed and stability are not tradeoffs. In fact, we see that the
+        metrics that the four keys focus on are correlated for most teams. Top performers do well across all four
+        metrics, and low performers do poorly.
 
     </main>
     <footer>
