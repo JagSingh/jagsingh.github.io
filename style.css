@@ -41,7 +41,6 @@ table, th, td {
     border-collapse: collapse;
     padding: 10px;
     margin: auto;
-    overflow-x: auto;
   }
   
 hr {
