@@ -37,9 +37,9 @@ footer {
 }
 
 table, th, td {
-    border: 2px solid #dde;
+    border: 1px solid #dde;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 5px;
     margin: auto;
   }
   
