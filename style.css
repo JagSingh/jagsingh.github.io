@@ -2,6 +2,11 @@
     jag.m.singh@gmail.com
 */
 
+html {
+    -webkit-text-size-adjust: 100%;
+    /* Prevents iOS from increasing text size on orientation change. Works in conjunction with the meta tag in the html <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
+}
+
 nav {
     background-color: #dde;
 }
