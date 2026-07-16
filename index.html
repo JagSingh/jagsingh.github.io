@@ -6,6 +6,43 @@
     <title>Jag Singh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .home-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            column-gap: 48px;
+            row-gap: 40px;
+            align-items: start;
+            text-align: left;
+        }
+
+        .home-grid .label {
+            text-align: right;
+        }
+
+        .home-grid .label h4 {
+            margin: 0 0 6px;
+        }
+
+        .home-grid .label p {
+            margin: 0;
+        }
+
+        .home-grid .links p:first-child {
+            margin-top: 0;
+        }
+
+        @media (max-width: 640px) {
+            .home-grid {
+                grid-template-columns: 1fr;
+                row-gap: 12px;
+            }
+
+            .home-grid .label {
+                text-align: left;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -17,46 +54,53 @@
 
     </header>
 
-    <main style="text-align: center;">
+    <main>
+        <div class="home-grid">
 
-        <nav><b>The Play</b></nav>
-        Curiosity, running around the clock.
+            <div class="label">
+                <h4>The Play</h4>
+                <p>Curiosity, running around the clock.</p>
+            </div>
+            <div class="links">
+                <p>
+                    <a href="Double-Scramble/Double-Scramble.html">Double Scramble</a><br>The sky over Dallas plays
+                    Satie's Gymnopedie No. 1.
+                </p>
+                <p>
+                    <a href="Plane Spotter/Plane Spotter.html">Plane Spotter</a><br>A rooftop radio hears the aircraft;
+                    a neural network takes its picture.
+                </p>
+            </div>
 
-        <p>
-            <a href="Double-Scramble/Double-Scramble.html">Double Scramble</a><br>The sky over Dallas plays Satie's
-            Gymnopedie No. 1.
-        </p>
+            <div class="label">
+                <h4>The Understanding</h4>
+                <p>Experience, given a structure.</p>
+            </div>
+            <div class="links">
+                <p>
+                    <a href="General Management/General Management.html">General Management</a><br>Wisdom is the tool
+                    for enhancing intuition.
+                </p>
+                <p>
+                    <a href="Counter Intuition/Counter Intuition.html">Counter Intuition</a><br>When wisdom is a
+                    matter of life and death.
+                </p>
+                <p>
+                    <a href="Travel/Travel.html">Travel</a><br>Where wisdom is wrong about other countries.
+                </p>
+                <p>
+                    <a href="Meaning/Meaning.html">Meaning</a><br>The limit of wisdom.
+                </p>
+                <p>
+                    <a href="Music/Music.html">Music</a><br>Meaning beyond wisdom.
+                </p>
+            </div>
 
-        <p>
-            <a href="Plane Spotter/Plane Spotter.html">Plane Spotter</a><br>A rooftop radio hears the aircraft;
-            a neural network takes its picture.
-        </p>
-
-        <nav><b>The Understanding</b></nav>
-        Experience, given a structure.
-
-        <p>
-            <a href="General Management/General Management.html">General Management</a><br>Wisdom is the tool for
-            enhancing intuition.
-        </p>
-        <p>
-            <a href="Counter Intuition/Counter Intuition.html">Counter Intuition</a><br>When wisdom is a
-            matter of life and death.
-        </p>
-        <p>
-            <a href="Travel/Travel.html">Travel</a><br>Where wisdom is wrong about other countries.
-        </p>
-        <p>
-            <a href="Meaning/Meaning.html">Meaning</a><br>The limit of wisdom.
-        </p>
-        <p>
-            <a href="Music/Music.html">Music</a><br>Meaning beyond wisdom.
-        </p>
+        </div>
     </main>
     <footer>
         <p>&copy; <a href="mailto:jag.m.singh@gmail.com">jag.m.singh@gmail.com</a></p>
     </footer>
 </body>
-
 
 </html>
