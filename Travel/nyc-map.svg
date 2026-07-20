@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 1000" role="img">
+  <title>NYC travel log map</title>
+  <desc>Stylized map of Manhattan with sixteen numbered stops, Citi Bike routes, walking routes, and the PATH train to Exchange Place.</desc>
+  <style>
+    svg {
+      --ink: #3d3d3a;
+      --muted: #6b6a63;
+      --land: #f2f0ea;
+      --shore: #c9c6bb;
+      --park: #e2edcf;
+      --park-edge: #9cbf6a;
+      --bike: #1d7a5f;
+      --walk: #c2542e;
+      --path-train: #8a887f;
+      --dot: #2c2c2a;
+      --dot-num: #f5f4ef;
+      font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+    .land { fill: var(--land); stroke: var(--shore); stroke-width: 1; stroke-linejoin: round; }
+    .park { fill: var(--park); stroke: var(--park-edge); stroke-width: 0.75; }
+    .bike { fill: none; stroke: var(--bike); stroke-width: 2.5; stroke-linecap: round; }
+    .walk { fill: none; stroke: var(--walk); stroke-width: 2.5; stroke-linecap: round; }
+    .pathline { fill: none; stroke: var(--path-train); stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .leader { stroke: var(--muted); stroke-width: 0.5; stroke-dasharray: 2 2; }
+    .lbl { font-size: 12px; fill: var(--muted); }
+    .dot { fill: var(--dot); }
+    .num { font-size: 11px; font-weight: 600; fill: var(--dot-num); text-anchor: middle; dominant-baseline: central; }
+  </style>
+
+  <path class="land" d="M215,752 L206,704 L227,632 L233,572 L260,504 L278,472 L312,392 L351,312 L403,212 L427,144 L478,64 L539,48 L515,120 L484,216 L466,320 L445,372 L439,428 L394,504 L369,560 L354,604 L351,672 L339,712 L297,736 L251,750 Z"/>
+  <path class="land" d="M285,780 L305,748 L350,720 L395,706 L460,700 L640,700 L640,780 Z"/>
+  <path class="land" d="M140,780 L155,745 L163,700 L168,650 L140,650 Z"/>
+  <polygon class="park" points="321,480 347,494 418,365 394,350"/>
+
+  <text class="lbl" x="405" y="336" text-anchor="middle">Central Park</text>
+  <text class="lbl" x="185" y="470">Hudson River</text>
+  <text class="lbl" x="395" y="630">East River</text>
+  <text class="lbl" x="480" y="745" text-anchor="middle">Brooklyn</text>
+  <text class="lbl" x="100" y="672" text-anchor="middle">Jersey City</text>
+
+  <ellipse class="bike" cx="369" cy="421" rx="66" ry="15" transform="rotate(-61 369 421)"/>
+  <path class="bike" d="M240,566 C234,600 226,640 216,676 C210,700 210,726 216,748"/>
+  <path class="walk" d="M256,548 C250,560 247,570 245,578 C243,585 240,590 234,592"/>
+  <path class="walk" d="M212,746 C206,730 203,714 206,698" stroke-width="2"/>
+  <path class="walk" d="M256,710 L308,746"/>
+  <path class="walk" d="M158,726 C156,710 158,694 163,672" stroke-width="2"/>
+  <path class="pathline" d="M240,700 L170,688"/>
+
+  <text class="lbl" x="266" y="566">High Line</text>
+  <line class="leader" x1="250" y1="565" x2="262" y2="566"/>
+  <text class="lbl" x="196" y="642" text-anchor="end">Greenway</text>
+  <line class="leader" x1="200" y1="640" x2="220" y2="640"/>
+
+  <line x1="40" y1="56" x2="70" y2="56" stroke="#1d7a5f" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="lbl" x="78" y="60">Citi Bike (park loop, Hudson greenway)</text>
+  <line x1="40" y1="80" x2="70" y2="80" stroke="#c2542e" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="lbl" x="78" y="84">Walk (High Line, esplanade, bridge, JC walkway)</text>
+  <line x1="40" y1="104" x2="70" y2="104" stroke="#8a887f" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text class="lbl" x="78" y="108">PATH under the Hudson</text>
+  <circle class="dot" cx="55" cy="126" r="7"/>
+  <text class="lbl" x="78" y="130">Places of interest</text>
+
+  <g>
+    <circle class="dot" cx="334" cy="544" r="9"/><text class="num" x="334" y="544">1</text>
+    <circle class="dot" cx="346" cy="528" r="9"/><text class="num" x="346" y="528">2</text>
+    <circle class="dot" cx="304" cy="515" r="9"/><text class="num" x="304" y="515">3</text>
+    <circle class="dot" cx="334" cy="506" r="9"/><text class="num" x="334" y="506">4</text>
+    <circle class="dot" cx="378" cy="434" r="9"/><text class="num" x="378" y="434">5</text>
+    <circle class="dot" cx="268" cy="530" r="9"/><text class="num" x="268" y="530">6</text>
+    <circle class="dot" cx="254" cy="544" r="9"/><text class="num" x="254" y="544">7</text>
+    <circle class="dot" cx="248" cy="582" r="9"/><text class="num" x="248" y="582">8</text>
+    <circle class="dot" cx="231" cy="590" r="9"/><text class="num" x="231" y="590">9</text>
+    <circle class="dot" cx="240" cy="564" r="9"/><text class="num" x="240" y="564">10</text>
+    <circle class="dot" cx="212" cy="696" r="9"/><text class="num" x="212" y="696">11</text>
+    <circle class="dot" cx="227" cy="708" r="9"/><text class="num" x="227" y="708">12</text>
+    <circle class="dot" cx="244" cy="700" r="9"/><text class="num" x="244" y="700">13</text>
+    <circle class="dot" cx="166" cy="687" r="9"/><text class="num" x="166" y="687">14</text>
+    <circle class="dot" cx="274" cy="692" r="9"/><text class="num" x="274" y="692">15</text>
+    <circle class="dot" cx="282" cy="728" r="9"/><text class="num" x="282" y="728">16</text>
+  </g>
+
+  <g>
+    <circle class="dot" cx="52" cy="812" r="9"/><text class="num" x="52" y="812">1</text>
+    <text class="lbl" x="68" y="816">Grand Central Terminal</text>
+    <circle class="dot" cx="52" cy="834" r="9"/><text class="num" x="52" y="834">2</text>
+    <text class="lbl" x="68" y="838">Grand Central Madison (LIRR art walk)</text>
+    <circle class="dot" cx="52" cy="856" r="9"/><text class="num" x="52" y="856">3</text>
+    <text class="lbl" x="68" y="860">Le Parisien Bakery</text>
+    <circle class="dot" cx="52" cy="878" r="9"/><text class="num" x="52" y="878">4</text>
+    <text class="lbl" x="68" y="882">MoMA</text>
+    <circle class="dot" cx="52" cy="900" r="9"/><text class="num" x="52" y="900">5</text>
+    <text class="lbl" x="68" y="904">The Met</text>
+    <circle class="dot" cx="52" cy="922" r="9"/><text class="num" x="52" y="922">6</text>
+    <text class="lbl" x="68" y="926">Russ &amp; Daughters</text>
+    <circle class="dot" cx="52" cy="944" r="9"/><text class="num" x="52" y="944">7</text>
+    <text class="lbl" x="68" y="948">The Vessel</text>
+    <circle class="dot" cx="52" cy="966" r="9"/><text class="num" x="52" y="966">8</text>
+    <text class="lbl" x="68" y="970">Chelsea Market</text>
+    <circle class="dot" cx="356" cy="812" r="9"/><text class="num" x="356" y="812">9</text>
+    <text class="lbl" x="372" y="816">Little Island</text>
+    <circle class="dot" cx="356" cy="834" r="9"/><text class="num" x="356" y="834">10</text>
+    <text class="lbl" x="372" y="838">IAC digital art wall (Pier 59)</text>
+    <circle class="dot" cx="356" cy="856" r="9"/><text class="num" x="356" y="856">11</text>
+    <text class="lbl" x="372" y="860">Brookfield Place &amp; North Cove</text>
+    <circle class="dot" cx="356" cy="878" r="9"/><text class="num" x="356" y="878">12</text>
+    <text class="lbl" x="372" y="882">9/11 Memorial</text>
+    <circle class="dot" cx="356" cy="900" r="9"/><text class="num" x="356" y="900">13</text>
+    <text class="lbl" x="372" y="904">Oculus</text>
+    <circle class="dot" cx="356" cy="922" r="9"/><text class="num" x="356" y="922">14</text>
+    <text class="lbl" x="372" y="926">Exchange Place &amp; waterfront walkway</text>
+    <circle class="dot" cx="356" cy="944" r="9"/><text class="num" x="356" y="944">15</text>
+    <text class="lbl" x="372" y="948">Xi'an Famous Foods, Chinatown</text>
+    <circle class="dot" cx="356" cy="966" r="9"/><text class="num" x="356" y="966">16</text>
+    <text class="lbl" x="372" y="970">Brooklyn Bridge (walk both ways)</text>
+  </g>
+</svg>
