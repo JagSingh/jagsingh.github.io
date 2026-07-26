@@ -14,7 +14,7 @@
       --path-train: #8a887f;
       --dot: #2c2c2a;
       --dot-num: #f5f4ef;
-      font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-family: sans-serif;
     }
     .land { fill: var(--land); stroke: var(--shore); stroke-width: 1; stroke-linejoin: round; }
     .park { fill: var(--park); stroke: var(--park-edge); stroke-width: 0.75; }
