@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 1000" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 1010" role="img">
   <title>Jag Singh - Travel - NYC Map</title>
   <desc>https://jagmsingh.com/Travel/NYC.html</desc>
   <style>
@@ -63,20 +63,21 @@
   <g>
     <circle class="dot" cx="334" cy="544" r="9"/><text class="num" x="334" y="544">1</text>
     <circle class="dot" cx="346" cy="528" r="9"/><text class="num" x="346" y="528">2</text>
-    <circle class="dot" cx="304" cy="515" r="9"/><text class="num" x="304" y="515">3</text>
-    <circle class="dot" cx="334" cy="506" r="9"/><text class="num" x="334" y="506">4</text>
-    <circle class="dot" cx="378" cy="434" r="9"/><text class="num" x="378" y="434">5</text>
-    <circle class="dot" cx="268" cy="530" r="9"/><text class="num" x="268" y="530">6</text>
-    <circle class="dot" cx="254" cy="544" r="9"/><text class="num" x="254" y="544">7</text>
-    <circle class="dot" cx="248" cy="582" r="9"/><text class="num" x="248" y="582">8</text>
-    <circle class="dot" cx="231" cy="590" r="9"/><text class="num" x="231" y="590">9</text>
-    <circle class="dot" cx="240" cy="564" r="9"/><text class="num" x="240" y="564">10</text>
-    <circle class="dot" cx="212" cy="696" r="9"/><text class="num" x="212" y="696">11</text>
-    <circle class="dot" cx="227" cy="708" r="9"/><text class="num" x="227" y="708">12</text>
-    <circle class="dot" cx="244" cy="700" r="9"/><text class="num" x="244" y="700">13</text>
-    <circle class="dot" cx="166" cy="687" r="9"/><text class="num" x="166" y="687">14</text>
-    <circle class="dot" cx="274" cy="692" r="9"/><text class="num" x="274" y="692">15</text>
-    <circle class="dot" cx="282" cy="728" r="9"/><text class="num" x="282" y="728">16</text>
+    <circle class="dot" cx="316" cy="532" r="9"/><text class="num" x="316" y="532">3</text>
+    <circle class="dot" cx="304" cy="515" r="9"/><text class="num" x="304" y="515">4</text>
+    <circle class="dot" cx="334" cy="506" r="9"/><text class="num" x="334" y="506">5</text>
+    <circle class="dot" cx="378" cy="434" r="9"/><text class="num" x="378" y="434">6</text>
+    <circle class="dot" cx="268" cy="530" r="9"/><text class="num" x="268" y="530">7</text>
+    <circle class="dot" cx="254" cy="544" r="9"/><text class="num" x="254" y="544">8</text>
+    <circle class="dot" cx="248" cy="582" r="9"/><text class="num" x="248" y="582">9</text>
+    <circle class="dot" cx="231" cy="590" r="9"/><text class="num" x="231" y="590">10</text>
+    <circle class="dot" cx="240" cy="564" r="9"/><text class="num" x="240" y="564">11</text>
+    <circle class="dot" cx="212" cy="696" r="9"/><text class="num" x="212" y="696">12</text>
+    <circle class="dot" cx="227" cy="708" r="9"/><text class="num" x="227" y="708">13</text>
+    <circle class="dot" cx="244" cy="700" r="9"/><text class="num" x="244" y="700">14</text>
+    <circle class="dot" cx="166" cy="687" r="9"/><text class="num" x="166" y="687">15</text>
+    <circle class="dot" cx="274" cy="692" r="9"/><text class="num" x="274" y="692">16</text>
+    <circle class="dot" cx="282" cy="728" r="9"/><text class="num" x="282" y="728">17</text>
   </g>
 
   <g>
@@ -85,32 +86,34 @@
     <circle class="dot" cx="52" cy="834" r="9"/><text class="num" x="52" y="834">2</text>
     <text class="lbl" x="68" y="838">Grand Central Madison (LIRR art walk)</text>
     <circle class="dot" cx="52" cy="856" r="9"/><text class="num" x="52" y="856">3</text>
-    <text class="lbl" x="68" y="860">Le Parisien Bakery</text>
+    <text class="lbl" x="68" y="860">Rose Main Reading Room, NYPL</text>
     <circle class="dot" cx="52" cy="878" r="9"/><text class="num" x="52" y="878">4</text>
-    <text class="lbl" x="68" y="882">MoMA</text>
+    <text class="lbl" x="68" y="882">Le Parisien Bakery</text>
     <circle class="dot" cx="52" cy="900" r="9"/><text class="num" x="52" y="900">5</text>
-    <text class="lbl" x="68" y="904">The Met</text>
+    <text class="lbl" x="68" y="904">MoMA</text>
     <circle class="dot" cx="52" cy="922" r="9"/><text class="num" x="52" y="922">6</text>
-    <text class="lbl" x="68" y="926">Russ &amp; Daughters</text>
+    <text class="lbl" x="68" y="926">The Met</text>
     <circle class="dot" cx="52" cy="944" r="9"/><text class="num" x="52" y="944">7</text>
-    <text class="lbl" x="68" y="948">The Vessel</text>
+    <text class="lbl" x="68" y="948">Russ &amp; Daughters</text>
     <circle class="dot" cx="52" cy="966" r="9"/><text class="num" x="52" y="966">8</text>
-    <text class="lbl" x="68" y="970">Chelsea Market</text>
-    <circle class="dot" cx="356" cy="812" r="9"/><text class="num" x="356" y="812">9</text>
+    <text class="lbl" x="68" y="970">The Vessel</text>
+    <circle class="dot" cx="52" cy="988" r="9"/><text class="num" x="52" y="988">9</text>
+    <text class="lbl" x="68" y="992">Chelsea Market</text>
+    <circle class="dot" cx="356" cy="812" r="9"/><text class="num" x="356" y="812">10</text>
     <text class="lbl" x="372" y="816">Little Island</text>
-    <circle class="dot" cx="356" cy="834" r="9"/><text class="num" x="356" y="834">10</text>
+    <circle class="dot" cx="356" cy="834" r="9"/><text class="num" x="356" y="834">11</text>
     <text class="lbl" x="372" y="838">IAC digital art wall (Pier 59)</text>
-    <circle class="dot" cx="356" cy="856" r="9"/><text class="num" x="356" y="856">11</text>
+    <circle class="dot" cx="356" cy="856" r="9"/><text class="num" x="356" y="856">12</text>
     <text class="lbl" x="372" y="860">Brookfield Place &amp; North Cove</text>
-    <circle class="dot" cx="356" cy="878" r="9"/><text class="num" x="356" y="878">12</text>
+    <circle class="dot" cx="356" cy="878" r="9"/><text class="num" x="356" y="878">13</text>
     <text class="lbl" x="372" y="882">9/11 Memorial</text>
-    <circle class="dot" cx="356" cy="900" r="9"/><text class="num" x="356" y="900">13</text>
+    <circle class="dot" cx="356" cy="900" r="9"/><text class="num" x="356" y="900">14</text>
     <text class="lbl" x="372" y="904">Oculus</text>
-    <circle class="dot" cx="356" cy="922" r="9"/><text class="num" x="356" y="922">14</text>
+    <circle class="dot" cx="356" cy="922" r="9"/><text class="num" x="356" y="922">15</text>
     <text class="lbl" x="372" y="926">Exchange Place &amp; waterfront walkway</text>
-    <circle class="dot" cx="356" cy="944" r="9"/><text class="num" x="356" y="944">15</text>
+    <circle class="dot" cx="356" cy="944" r="9"/><text class="num" x="356" y="944">16</text>
     <text class="lbl" x="372" y="948">Xi'an Famous Foods, Chinatown</text>
-    <circle class="dot" cx="356" cy="966" r="9"/><text class="num" x="356" y="966">16</text>
+    <circle class="dot" cx="356" cy="966" r="9"/><text class="num" x="356" y="966">17</text>
     <text class="lbl" x="372" y="970">Brooklyn Bridge (walk both ways)</text>
   </g>
 </svg>
